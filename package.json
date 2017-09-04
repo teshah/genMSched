@@ -2,13 +2,13 @@
   "name": "try1",
   "version": "1.0.0",
   "description": "gen minal schedule",
-  "main": "genSched.js",
+  "main": "genMSched.js",
   "dependencies": {
     "json2csv" : "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "genSched": "node genSched"
+    "genMSched": "node genMSched"
   },
   "author": "",
   "license": "ISC"
