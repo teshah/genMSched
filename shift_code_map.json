@@ -1,82 +1,19 @@
 {
     "list": [
-        {
-            "code": "X",
-            "subject": "M Dayoff",
-            "starttime": "3pm",
-            "endtime": "8pm"
-        },
-        {
-            "code": "IV",
-            "subject": "IV",
-            "starttime": "7am",
-            "endtime": "4pm"
-        },
-        {
-            "code": "CA",
-            "subject": "CA",
-            "starttime": "7am",
-            "endtime": "4pm"
-        },
-        {
-            "code": "1130",
-            "subject": "1130",
-            "starttime": "7am",
-            "endtime": "4pm"
-        },
-        {
-            "code": "23",
-            "subject": "23",
-            "starttime": "7am",
-            "endtime": "4pm"
-        },
-        {
-            "code": "8^",
-            "subject": "8^",
-            "starttime": "7am",
-            "endtime": "4pm"
-        },
-        {
-            "code": "N!",
-            "subject": "N!",
-            "starttime": "7am",
-            "endtime": "4pm"
-        },
-        {
-            "code": "S^",
-            "subject": "S^",
-            "starttime": "7am",
-            "endtime": "4pm"
-        },
-        {
-            "code": "4^",
-            "subject": "4^",
-            "starttime": "7am",
-            "endtime": "4pm"
-        },
-        {
-            "code": "P",
-            "subject": "P",
-            "starttime": "7am",
-            "endtime": "4pm"
-        },
-        {
-            "code": "C",
-            "subject": "C",
-            "starttime": "7am",
-            "endtime": "4pm"
-        },
-        {
-            "code": "N",
-            "subject": "N",
-            "starttime": "7am",
-            "endtime": "4pm"
-        },
-        {
-            "code": "730!",
-            "subject": "730!",
-            "starttime": "7am",
-            "endtime": "4pm"
-        }
+        { "code" : "1130", "starttime": "12:30 pm" },
+        { "code" : "2!", "starttime": "2:00 pm" },
+        { "code" : "23", "starttime": "11:00 pm" },
+        { "code" : "3!", "starttime": "3:00 pm" },
+        { "code" : "4^", "starttime": "4:00 pm" },
+        { "code" : "730!", "starttime": "7:30 am" },
+        { "code" : "8^", "starttime": "8:00 am" },
+        { "code" : "C", "starttime": "7:30 am" },
+        { "code" : "CA", "starttime": "7:00 am" },
+        { "code" : "IV", "starttime": "6:00 am" },
+        { "code" : "N", "starttime": "8:00 am" },
+        { "code" : "N!", "starttime": "8:00 am" },
+        { "code" : "P", "starttime": "12:00 am", "allday": "true" },
+        { "code" : "S^", "starttime": "7:30 am" },
+        { "code" : "X", "starttime": "12:00 am", "allday": "true" }
     ]
 }
