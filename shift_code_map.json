@@ -1,6 +1,7 @@
 {
     "list": [
         { "code" : "1130", "starttime": "12:30 pm" },
+        { "code" : "1230", "starttime": "12:30 pm" },
         { "code" : "2!", "starttime": "2:00 pm" },
         { "code" : "23", "starttime": "11:00 pm" },
         { "code" : "3!", "starttime": "3:00 pm" },

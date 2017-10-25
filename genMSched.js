@@ -16,7 +16,10 @@ function genSchedule(firstDay, inputRawSchedule) {
     codex.forEach(function (element) {
         // console.info ( element + " " + new Date())
         var sched = getCodeSchedule(forDay, element);
-        forDay.setTime(forDay.getTime() + 1 * 86400000);
+        // console.info('before forDay = ' + forDay);
+        // forDay.setTime(forDay.getTime() + 1 * 86400000);
+        forDay = new Date(forDay.getFullYear(), forDay.getMonth(), forDay.getDate() + 1);
+        // console.info('after forDay = ' + forDay);
     }, this);
 
 }
@@ -83,8 +86,14 @@ function getCodeSchedule(forDay, codex) {
 
 }
 
-let firstDay = "9/17/2017";
+let firstDay = "10/29/2017";
 
 // genSchedule(firstDay, '730! C C C X 4^ X X N! X N! S^ CA 8^ 8^ CA X N! N! N! X X P P P X IV N 4^ P X C C 23 X X CA 1130 N! S^ X 730! 730!');
-genSchedule(firstDay, '730! C X C C 3! X X C C S^ X N! N 2! 23 X N! IV IV X X S^ C IV X IV IV IV X CA S^ S^ CA X X C C C 3! 23 X N!');
+// genSchedule(firstDay, '730! C X C C 3! X X C C S^ X N! N 2! 23 X N! IV IV X X S^ C IV X IV IV IV X CA S^ S^ CA X X C C C 3! 23 X N!');
+
+//On Mon 10/23/2017 9:11 PM ET
+let sched = 'N! X C 3! N! 23 X X P 3! N! X C IV IV IV 1230 X P P X X P P P X P P P X P P P P X X P P P P X 2! 2!';
+genSchedule(firstDay, sched);
+
+
 
