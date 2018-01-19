@@ -94,9 +94,15 @@ function getCodeSchedule(forDay, codex) {
 // let sched = 'N! X C 3! N! 23 X X P 3! N! X C IV IV IV 1230 X P P X X P P P X P P P X P P P P X X P P P P X 2! 2!';
 
 //On Sat 12/9/2017 11:55AM ET
-let firstDay = "12/11/2017";
-let sched = '2! N! 3! X N! N! X X C C X 3! N! 730! 2! 8^ N! X N! 12 X X 2! P S^ S^ X N! N! IV 12 X CA CA X X 12 C C X C IV IV';
+// let firstDay = "12/11/2017";
+// let sched = '2! N! 3! X N! N! X X C C X 3! N! 730! 2! 8^ N! X N! 12 X X 2! P S^ S^ X N! N! IV 12 X CA CA X X 12 C C X C IV IV';
+// genSchedule(firstDay, sched);
+
+//On Th Jan 18, 2018 22:08 ET
+let firstDay = "1/22/2018";
+let sched = '12 X CA C C X X 3! N! IV X IV IV IV IV X N! 3! P X X C C C X C 8^ 8^ X S^ IV 12 IV X X IV 3! N! CA X 23 X';
 genSchedule(firstDay, sched);
+
 
 
 
