@@ -1,8 +1,10 @@
-Extract shift schedule here
-Edit genMSched.js, enter cut/paste-sched and start date
-Run program
-download csv
-verify in sched
-import again in main sched
+git flow feature start may-schedule
 
-730! S^ 3! P X N! X X N! 12 X CA S^ 2! 8^ X C C C N! X X 12 CA IV X N! N! 23 X IV 3! N! N! X X C C C 3! X 730! 730!
+Cut/paster schedule from pdf to here 
+Edit genMSched.js, enter schedule + startdate
+run genSched.sh
+download csv
+import cal in temp location
+verify
+import again in main sched
+git flow feature finish may-schedule
