@@ -1,1 +1,1 @@
-yarn genMSched 2> schedule.csv
+node genMSched.js 2> schedule.csv

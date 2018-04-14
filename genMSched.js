@@ -103,10 +103,14 @@ function getCodeSchedule(forDay, codex) {
 //let sched = '12 X CA C C X X 3! N! IV X IV IV IV IV X N! 3! P X X C C C X C 8^ 8^ X S^ IV 12 IV X X IV 3! N! CA X 23 X';
 
 //On Th Mar 1 2018 18:50 ET
-let firstDay = '3/4/2018'; //sunday
-let sched = '730! S^ 3! P X N! X X N! 12 X CA S^ 2! 8^ X C C C N! X X 12 CA IV X N! N! 23 X IV 3! N! N! X X C C C 3! X 730! 730!';
-genSchedule(firstDay, sched);  //43 events imported.
+//let firstDay = '3/4/2018'; //sunday
+//let sched = '730! S^ 3! P X N! X X N! 12 X CA S^ 2! 8^ X C C C N! X X 12 CA IV X N! N! 23 X IV 3! N! N! X X C C C 3! X 730! 730!';
+//genSchedule(firstDay, sched);  //43 events imported.
 
+//On Fr 4/13/2018 8:41 PM ET
+let firstDay = '4/15/2018';
+let sched = '730! S^ X IV IV IV X X CA CA X 3! N! 2! N! N! X N! IV S^ X X C C C X CA 8^ 8^ X IV IV 12 N! X X P P P P X P P';
+genSchedule(firstDay, sched);  //43 events imported.
 
 
 

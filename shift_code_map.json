@@ -11,7 +11,7 @@
         { "code" : "8^", "starttime": "8:00 am" },
         { "code" : "C", "starttime": "7:30 am" },
         { "code" : "CA", "starttime": "7:00 am" },
-        { "code" : "IV", "starttime": "6:00 am" },
+        { "code" : "IV", "starttime": "7:00 am" },
         { "code" : "N", "starttime": "8:00 am" },
         { "code" : "N!", "starttime": "8:00 am" },
         { "code" : "P", "starttime": "12:00 am", "allday": "true" },
