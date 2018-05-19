@@ -108,9 +108,11 @@ function getCodeSchedule(forDay, codex) {
 //genSchedule(firstDay, sched);  //43 events imported.
 
 //On Fr 4/13/2018 8:41 PM ET
-let firstDay = '4/15/2018';
-let sched = '730! S^ X IV IV IV X X CA CA X 3! N! 2! N! N! X N! IV S^ X X C C C X CA 8^ 8^ X IV IV 12 N! X X P P P P X P P';
+// let firstDay = '4/15/2018';
+// let sched = '730! S^ X IV IV IV X X CA CA X 3! N! 2! N! N! X N! IV S^ X X C C C X CA 8^ 8^ X IV IV 12 N! X X P P P P X P P';
+// genSchedule(firstDay, sched);  //43 events imported.
+
+//On Sat 5/19/2018 12:34 PM ET
+let firstDay = '5/27/2018';  //last day 7/8/18
+let sched = 'P P 12 C X N! X X IV 12 N! X IV IV IV CA X CA S^ C X X C X C C C P P X P P P P X X IV X IV 12 N! 8^ 8^';
 genSchedule(firstDay, sched);  //43 events imported.
-
-
-
