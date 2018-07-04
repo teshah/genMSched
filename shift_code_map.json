@@ -1,6 +1,6 @@
 {
     "list": [
-        { "code" : "1130", "starttime": "12:30 pm" },
+        { "code" : "1130", "starttime": "11:30 pm" },
         { "code" : "12", "starttime": "12:00 pm" },
         { "code" : "1230", "starttime": "12:30 pm" },
         { "code" : "2!", "starttime": "2:00 pm" },
@@ -8,14 +8,17 @@
         { "code" : "3!", "starttime": "3:00 pm" },
         { "code" : "4^", "starttime": "4:00 pm" },
         { "code" : "730!", "starttime": "7:30 am" },
+        { "code" : "730^", "starttime": "7:30 am" },
         { "code" : "8^", "starttime": "8:00 am" },
         { "code" : "C", "starttime": "7:30 am" },
         { "code" : "CA", "starttime": "7:00 am" },
         { "code" : "IV", "starttime": "7:00 am" },
         { "code" : "N", "starttime": "8:00 am" },
+        { "code" : "N^", "starttime": "8:00 am" },
         { "code" : "N!", "starttime": "8:00 am" },
         { "code" : "P", "starttime": "12:00 am", "allday": "true" },
         { "code" : "S^", "starttime": "7:30 am" },
+        { "code" : "S!", "starttime": "7:30 am" },
         { "code" : "X", "starttime": "12:00 am", "allday": "true" }
     ]
 }
