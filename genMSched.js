@@ -117,8 +117,11 @@ function getCodeSchedule(forDay, codex) {
 // let sched = 'P P 12 C X N! X X IV 12 N! X IV IV IV CA X CA S^ C X X C X C C C P P X P P P P X X IV X IV 12 N! 8^ 8^';
 // genSchedule(firstDay, sched);  //43 events imported.
 
+// let firstDay = '7/8/2018';  //last day 8/18/18
+// let sched = '8^ X C C CA IV X X C C C X IV 730^ 730^ X S! 1130 CA S! X X C N^ N^ N^ X CA CA CA 23 X N^ N^ X X C C C X IV 730^ 730^';
+// genSchedule(firstDay, sched);  //43 events imported.
 
-//On Sat 5/19/2018 12:34 PM ET
-let firstDay = '7/8/2018';  //last day 8/18/18
-let sched = '8^ X C C CA IV X X C C C X IV 730^ 730^ X S! 1130 CA S! X X C N^ N^ N^ X CA CA CA 23 X N^ N^ X X C C C X IV 730^ 730^';
+// On Sun 8/12/2018 
+let firstDay = '8/19/2018';  //last day 9/30/18
+let sched = '730 X CA IV IV IV X X S! P 1130 N^ X 8! 8! P 23 X S! S! X X N^ IV 1130 X CA 730 730 X C C C C X X S! X IV N^ 1130 N^ N^';
 genSchedule(firstDay, sched);  //43 events imported.
